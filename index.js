@@ -63,7 +63,7 @@ class SimplePicker extends Component {
 
     this.state = {
       buttonColor: this.props.buttonColor || '#007AFF',
-      buttonSize : this.props.buttonSize || 10,
+      buttonSize : this.props.buttonSize || 15,
       modalVisible: false,
       selectedOption: this.props.options[0],
     };
